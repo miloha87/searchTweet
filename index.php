@@ -12,6 +12,8 @@ and open the template in the editor.
         <link rel="stylesheet" media="all" href="web/css/bootstrap-theme.min.css" />
         <link rel="stylesheet" media="all" href="web/css/main.css" />
         <link rel="stylesheet" media="all" href="web/js/main.js" />
+        
+        
     </head>
     <body>
         <div class="content-main">
@@ -23,7 +25,9 @@ and open the template in the editor.
                 </form>
             </div>
             <div class="content">
-                <div id="content-left"></div>
+                <div id="tweets">
+                     Tweets will go here.
+                </div>
                 <div id="content-right"></div>
             </div>
         </div>
