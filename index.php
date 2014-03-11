@@ -21,7 +21,7 @@
                 <div id="header-search">
                     <span>Ingrese la palabra por la que desee filtrar los Tweets</span>
                     <div id="header-search">
-                        <form  method="POST" action="web/php/insert.php">
+                        <form  method="GET" action="web/php/insert.php">
                             <input id="data" name="query" type="text" placeholder="Ingresa palabra" />
                             <input id="search" type="submit" value="Buscar" />
                         </form>
