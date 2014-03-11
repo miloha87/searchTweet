@@ -2,7 +2,7 @@
 
 	include("connect.php");
 	
-	$data = $_POST["data"];
+	$data = $_GET["data"];
 	
 	//$gravarsql= "insert into searchs (name) value ('"$data"')";
 	mysql_query("insert into searchs (name) value ('".$data."')");
