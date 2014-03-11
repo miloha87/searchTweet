@@ -1,14 +1,15 @@
-<?php
+<<?php
     require 'app_tokens.php';
     require 'tmhOAuth-master/tmhOAuth.php';
     
     include 'web/php/insert.php';
-    
+   
     $query = htmlspecialchars($_GET['query']);
     
     if (empty($query))
     {
         $query = "Alejita";
+
     }
     
     $connection = new tmhOAuth(array(
@@ -16,6 +17,7 @@
         'consumer_secret' => $consumer_secret,
         'user_token' => $user_token,
         'user_secret' => $user_secret
+
     ));
     
     $http_code = $connection->request('GET',
